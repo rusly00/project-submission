@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="application.QuizController"
+      spacing="10" alignment="CENTER" style="-fx-padding: 20;">
+    <Label fx:id="questionLabel" text="Question" wrapText="true" style="-fx-font-size: 16px;" />
+    <Button fx:id="optionA" text="A" onAction="#handleA"/>
+    <Button fx:id="optionB" text="B" onAction="#handleB"/>
+    <Button fx:id="optionC" text="C" onAction="#handleC"/>
+    <Button fx:id="optionD" text="D" onAction="#handleD"/>
+    <Button fx:id="nextBtn" text="Next" onAction="#handleNext"/>
+</VBox>
